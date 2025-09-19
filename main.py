@@ -25,8 +25,8 @@ except KeyError:
 client = Groq(api_key=api_key)
 
 CODE_FILE_EXTENSIONS = {
-    '.cpp', '.c', '.h', '.hpp', '.java', '.py', '.js', '.ts', '.cc',
-    '.html', '.css', '.go', '.rs', '.php', '.rb', '.swift', '.kt'
+    '.cpp', '.c', '.h', '.hpp', '.java', '.py', '.js', '.ts', '.cc', '.conf', '.sym',
+    '.html', '.css', '.go', '.rs', '.php', '.rb', '.swift', '.kt', '.xml', '.am', '.ac'
 }
 
 def remove_comments(code):
