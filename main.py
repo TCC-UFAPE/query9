@@ -167,7 +167,7 @@ def analyze_code_files(root_dir, model_name, output_excel_path):
         print(f"Erro ao salvar o arquivo Excel: {e}")
 
 if __name__ == "__main__":
-    repo_root_directory = os.path.join("1CVE-2015-7510")
+    repo_root_directory = os.path.join("10CVE-2018-16865")
 
     if not os.path.isdir(repo_root_directory):
         print(f"Erro: Diretório base para os códigos não encontrado: '{repo_root_directory}'")
